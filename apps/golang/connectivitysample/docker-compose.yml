@@ -35,7 +35,7 @@ services:
         target: /root/bin/config
     extra_hosts:
       - "${EXTERNAL_HOSTNAME}:${EXTERNAL_IP}"
-       - "${VMS_HOSTNAME}:${VMS_IP}" # Uncomment this line if your vms is not in the network domain
+      - "${VMS_HOSTNAME}:${VMS_IP}" # Uncomment this line if your vms is not in the network domain
 
 networks:
   default:
